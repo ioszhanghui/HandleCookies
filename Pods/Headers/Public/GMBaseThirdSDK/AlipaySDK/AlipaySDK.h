@@ -1,0 +1,1 @@
+../../../../GMBaseThirdSDK/GMBaseThirdSDK/Classes/GMAlipaySDK/AlipaySDK.framework/Headers/AlipaySDK.h

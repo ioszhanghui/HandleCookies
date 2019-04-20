@@ -1,0 +1,1 @@
+../../../GMCommenKit/GMCommenKit/Classes/LoginManager/public/GMDLoginViewDelegate.h

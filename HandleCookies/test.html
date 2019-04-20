@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset ='utf-8'>
+            <title>测试</title>
+            <style type='css/text'>
+                .testMessage{
+                    width: 100px;
+                    height: 100px;
+                    left: 100px;
+                    top: 100px;
+                    background-color: red;
+                }
+            #testClick{
+                width: 100px;
+                height: 100px;
+                top: 300px;
+                left: 100px;
+                background-color: #ff5533;
+            }
+            #prompt{
+                width: 500px;
+                height: 100px;
+                top: 300px;
+                left: 100px;
+                background-color: #ff5533;
+            }
+            .div{
+                width:300px;
+                height:500px;
+                top:400px;
+                left:500px;
+            }
+            </style>
+            </head>
+    <body>
+        <!--测试 messageHandler 消息处理-->
+        <div id = 'messagePost' class='testMessage'>Message交互</div>
+        <button onclick='testClick()' id ='testClick' >按钮事件</button>
+        <button onclick='promptClick()' id ='prompt' >弹出框事件</button>
+        <a class='div' href="https://www.baidu.com">测试预览</a>
+<!--        <video width="320" height="240" controls>-->
+<!--            <source src="https://v.youku.com/v_show/id_XNjYyMzAyNDQ4.html?spm=a2h0k.8191393.direct_touch.5~5!2~5!2~5~A" type="video/mp4">-->
+<!--        </video>-->
+        <!--<a href ='https://www.soku.com/m/y/video?q=%E9%98%BF%E5%87%A1%E8%BE%BE%20%E7%89%87%E6%AE%B5#loaded' target='_blank'>点我</a>-->
+        <script>
+            var btn = document.getElementById('messagePost');
+            btn.onclick= function(){
+               // window.webkit.messageHandlers.testMessage.postMessage({"code":"200","message":"成功"});
+               window.open('./navi.html','_self');
+            };
+        window.onload = function(){
+            //window.open('http://www.sina.com.cn',target='_parent');
+            //window.location = "http://www.sina.com.cn";
+        };
+        //输入提示框
+        function promptClick(){
+            var kouling = prompt("口令：");
+        }
+        //通过获取元素添加事件
+        var clickBtn = document.getElementById('testClick');
+        clickBtn.onclick= function(){
+            confirm("你确定要提示出来吗");
+        };
+        function my_post(path, params) {
+            var method = "POST";
+            var form = document.createElement("form");
+            form.setAttribute("method", method);
+            form.setAttribute("action", path);
+            for(var key in params){
+                if (params.hasOwnProperty(key)) {
+                    var hiddenFild = document.createElement("input");
+                    //hiddenFild.setAttribute("type", "hidden");
+                    hiddenFild.setAttribute("name", key);
+                    hiddenFild.setAttribute("value", params[key]);
+                }
+                
+                form.appendChild(hiddenFild);
+            }
+            document.body.appendChild(form);
+            alert(JSON.parse(params));
+            //form.submit();
+        }
+       alert("测试弹框");
+        // my_post("http://192.108.20.100:8080/test",{"token":"cac6af340960485aa334416c8a34ddbf"});
+            </script>
+    </body>
+</html>

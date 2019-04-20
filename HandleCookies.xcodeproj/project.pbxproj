@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1366685A225C3E0B004E5AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13666859225C3E0B004E5AA4 /* AppDelegate.m */; };
+		1366685D225C3E0B004E5AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1366685C225C3E0B004E5AA4 /* ViewController.m */; };
+		13666860225C3E0B004E5AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1366685E225C3E0B004E5AA4 /* Main.storyboard */; };
+		13666862225C3E0D004E5AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13666861225C3E0D004E5AA4 /* Assets.xcassets */; };
+		13666865225C3E0D004E5AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13666863225C3E0D004E5AA4 /* LaunchScreen.storyboard */; };
+		13666868225C3E0D004E5AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13666867225C3E0D004E5AA4 /* main.m */; };
+		13CF81A22267001400458E8C /* libGLoginLib_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF81A12267001400458E8C /* libGLoginLib_release.a */; };
+		13CF81A422671C1500458E8C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 13CF81A322671C1400458E8C /* test.html */; };
+		13CF81A722672B4400458E8C /* WKProcessPool+SharedProcessPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF81A622672B4400458E8C /* WKProcessPool+SharedProcessPool.m */; };
+		13CF81AA2267302700458E8C /* ProcessPoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF81A92267302700458E8C /* ProcessPoolViewController.m */; };
+		13CF81AC226ACC2400458E8C /* navi.html in Resources */ = {isa = PBXBuildFile; fileRef = 13CF81AB226ACC2300458E8C /* navi.html */; };
+		13CF81AF226AF2DC00458E8C /* CookieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF81AE226AF2DC00458E8C /* CookieViewController.m */; };
+		13CF81B2226AF66900458E8C /* LoadRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF81B1226AF66900458E8C /* LoadRequestViewController.m */; };
+		13CF81B5226AF67C00458E8C /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF81B4226AF67C00458E8C /* PostViewController.m */; };
+		B04B7CB27C5E06A801088150 /* libPods-HandleCookies.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E856D77ED67A77CAF9E1D209 /* libPods-HandleCookies.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13666855225C3E0B004E5AA4 /* HandleCookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandleCookies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13666858225C3E0B004E5AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13666859225C3E0B004E5AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1366685B225C3E0B004E5AA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1366685C225C3E0B004E5AA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1366685F225C3E0B004E5AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13666861225C3E0D004E5AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13666864225C3E0D004E5AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13666866225C3E0D004E5AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13666867225C3E0D004E5AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13CF81A12267001400458E8C /* libGLoginLib_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLoginLib_release.a; sourceTree = "<group>"; };
+		13CF81A322671C1400458E8C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		13CF81A522672B4400458E8C /* WKProcessPool+SharedProcessPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKProcessPool+SharedProcessPool.h"; sourceTree = "<group>"; };
+		13CF81A622672B4400458E8C /* WKProcessPool+SharedProcessPool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKProcessPool+SharedProcessPool.m"; sourceTree = "<group>"; };
+		13CF81A82267302700458E8C /* ProcessPoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessPoolViewController.h; sourceTree = "<group>"; };
+		13CF81A92267302700458E8C /* ProcessPoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcessPoolViewController.m; sourceTree = "<group>"; };
+		13CF81AB226ACC2300458E8C /* navi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = navi.html; sourceTree = "<group>"; };
+		13CF81AD226AF2DB00458E8C /* CookieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CookieViewController.h; sourceTree = "<group>"; };
+		13CF81AE226AF2DC00458E8C /* CookieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieViewController.m; sourceTree = "<group>"; };
+		13CF81B0226AF66900458E8C /* LoadRequestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadRequestViewController.h; sourceTree = "<group>"; };
+		13CF81B1226AF66900458E8C /* LoadRequestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadRequestViewController.m; sourceTree = "<group>"; };
+		13CF81B3226AF67C00458E8C /* PostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		13CF81B4226AF67C00458E8C /* PostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		9B2DCC876B17D0D5F3DBBDE1 /* Pods-HandleCookies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandleCookies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandleCookies/Pods-HandleCookies.debug.xcconfig"; sourceTree = "<group>"; };
+		E856D77ED67A77CAF9E1D209 /* libPods-HandleCookies.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HandleCookies.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8546BD49AFFFAAEF17F1F28 /* Pods-HandleCookies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandleCookies.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandleCookies/Pods-HandleCookies.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13666852225C3E0B004E5AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04B7CB27C5E06A801088150 /* libPods-HandleCookies.a in Frameworks */,
+				13CF81A22267001400458E8C /* libGLoginLib_release.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0120A9B00B984322F07E1F5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B2DCC876B17D0D5F3DBBDE1 /* Pods-HandleCookies.debug.xcconfig */,
+				F8546BD49AFFFAAEF17F1F28 /* Pods-HandleCookies.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1366684C225C3E0B004E5AA4 = {
+			isa = PBXGroup;
+			children = (
+				13666857225C3E0B004E5AA4 /* HandleCookies */,
+				13666856225C3E0B004E5AA4 /* Products */,
+				0120A9B00B984322F07E1F5B /* Pods */,
+				FC1AA8B8B6966C322B2DA266 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13666856225C3E0B004E5AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13666855225C3E0B004E5AA4 /* HandleCookies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13666857225C3E0B004E5AA4 /* HandleCookies */ = {
+			isa = PBXGroup;
+			children = (
+				13666858225C3E0B004E5AA4 /* AppDelegate.h */,
+				13666859225C3E0B004E5AA4 /* AppDelegate.m */,
+				13CF81A12267001400458E8C /* libGLoginLib_release.a */,
+				13CF81A322671C1400458E8C /* test.html */,
+				13CF81AB226ACC2300458E8C /* navi.html */,
+				1366685B225C3E0B004E5AA4 /* ViewController.h */,
+				13CF81A82267302700458E8C /* ProcessPoolViewController.h */,
+				13CF81A92267302700458E8C /* ProcessPoolViewController.m */,
+				13CF81AD226AF2DB00458E8C /* CookieViewController.h */,
+				13CF81AE226AF2DC00458E8C /* CookieViewController.m */,
+				13CF81B0226AF66900458E8C /* LoadRequestViewController.h */,
+				13CF81B1226AF66900458E8C /* LoadRequestViewController.m */,
+				13CF81B3226AF67C00458E8C /* PostViewController.h */,
+				13CF81B4226AF67C00458E8C /* PostViewController.m */,
+				1366685C225C3E0B004E5AA4 /* ViewController.m */,
+				13CF81A522672B4400458E8C /* WKProcessPool+SharedProcessPool.h */,
+				13CF81A622672B4400458E8C /* WKProcessPool+SharedProcessPool.m */,
+				1366685E225C3E0B004E5AA4 /* Main.storyboard */,
+				13666861225C3E0D004E5AA4 /* Assets.xcassets */,
+				13666863225C3E0D004E5AA4 /* LaunchScreen.storyboard */,
+				13666866225C3E0D004E5AA4 /* Info.plist */,
+				13666867225C3E0D004E5AA4 /* main.m */,
+			);
+			path = HandleCookies;
+			sourceTree = "<group>";
+		};
+		FC1AA8B8B6966C322B2DA266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E856D77ED67A77CAF9E1D209 /* libPods-HandleCookies.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13666854225C3E0B004E5AA4 /* HandleCookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1366686B225C3E0D004E5AA4 /* Build configuration list for PBXNativeTarget "HandleCookies" */;
+			buildPhases = (
+				4C6C6B66CCEB6ED2841AA7DD /* [CP] Check Pods Manifest.lock */,
+				13666851225C3E0B004E5AA4 /* Sources */,
+				13666852225C3E0B004E5AA4 /* Frameworks */,
+				13666853225C3E0B004E5AA4 /* Resources */,
+				4FEB90A816B6256DAE3CE258 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandleCookies;
+			productName = HandleCookies;
+			productReference = 13666855225C3E0B004E5AA4 /* HandleCookies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1366684D225C3E0B004E5AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "小飞鸟";
+				TargetAttributes = {
+					13666854225C3E0B004E5AA4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 13666850225C3E0B004E5AA4 /* Build configuration list for PBXProject "HandleCookies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1366684C225C3E0B004E5AA4;
+			productRefGroup = 13666856225C3E0B004E5AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13666854225C3E0B004E5AA4 /* HandleCookies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13666853225C3E0B004E5AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CF81A422671C1500458E8C /* test.html in Resources */,
+				13666865225C3E0D004E5AA4 /* LaunchScreen.storyboard in Resources */,
+				13CF81AC226ACC2400458E8C /* navi.html in Resources */,
+				13666862225C3E0D004E5AA4 /* Assets.xcassets in Resources */,
+				13666860225C3E0B004E5AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C6C6B66CCEB6ED2841AA7DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandleCookies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FEB90A816B6256DAE3CE258 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HandleCookies/Pods-HandleCookies-resources.sh",
+				"${PODS_ROOT}/GMBaseThirdSDK/GMBaseThirdSDK/Assets/GMAlipayBundle/AlipaySDK.bundle",
+				"${PODS_ROOT}/GMBaseThirdSDK/GMBaseThirdSDK/Assets/GMWeibo_SDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_down.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_down@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_down@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_down_iOS7.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_down_iOS7@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_down_iOS7@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_up.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_up@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_up@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_up_iOS7.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_up_iOS7@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/btn_done_up_iOS7@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/gmbbtn_red_bg.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/gmbbtn_red_bg@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/gmbbtn_red_bg@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/gmbbtn_red_bg_disable.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/gmbbtn_red_bg_disable@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/gmbbtn_red_bg_disable@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hong.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hong@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hong@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hui_left.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hui_left@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hui_left@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hui_right.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hui_right@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/icon_xin_hui_right@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_background.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_background@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_background@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst0.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst0@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst0@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst1.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst1@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst1@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst2.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst2@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst2@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_circleFirst@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_corcleSectond.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_corcleSectond@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/loading_corcleSectond@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/nav_btn_back.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/nav_btn_back@2x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/nav_btn_back@3x.png",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/GMF_GMAuthShare.bundle",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/LoginRegister.bundle",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/SSKeychain.bundle",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/GMCommenKit/GMCommenKit/Assets/LoginResource/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_down.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_down@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_down@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_down_iOS7.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_down_iOS7@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_down_iOS7@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_up.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_up@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_up@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_up_iOS7.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_up_iOS7@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/btn_done_up_iOS7@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gmbbtn_red_bg.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gmbbtn_red_bg@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gmbbtn_red_bg@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gmbbtn_red_bg_disable.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gmbbtn_red_bg_disable@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gmbbtn_red_bg_disable@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hong.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hong@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hong@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hui_left.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hui_left@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hui_left@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hui_right.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hui_right@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_xin_hui_right@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_background.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_background@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_background@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst0.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst0@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst0@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst1@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst1@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst2@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst2@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_circleFirst@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_corcleSectond.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_corcleSectond@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/loading_corcleSectond@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_btn_back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_btn_back@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nav_btn_back@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GMF_GMAuthShare.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LoginRegister.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SSKeychain.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandleCookies/Pods-HandleCookies-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13666851225C3E0B004E5AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CF81AF226AF2DC00458E8C /* CookieViewController.m in Sources */,
+				1366685D225C3E0B004E5AA4 /* ViewController.m in Sources */,
+				13666868225C3E0D004E5AA4 /* main.m in Sources */,
+				13CF81A722672B4400458E8C /* WKProcessPool+SharedProcessPool.m in Sources */,
+				13CF81B5226AF67C00458E8C /* PostViewController.m in Sources */,
+				13CF81AA2267302700458E8C /* ProcessPoolViewController.m in Sources */,
+				13CF81B2226AF66900458E8C /* LoadRequestViewController.m in Sources */,
+				1366685A225C3E0B004E5AA4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1366685E225C3E0B004E5AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1366685F225C3E0B004E5AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13666863225C3E0D004E5AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13666864225C3E0D004E5AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13666869225C3E0D004E5AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1366686A225C3E0D004E5AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1366686C225C3E0D004E5AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2DCC876B17D0D5F3DBBDE1 /* Pods-HandleCookies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KYACQ4K486;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HandleCookies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HandleCookies",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gomeshop.release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_GM_GomeMeishop;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1366686D225C3E0D004E5AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8546BD49AFFFAAEF17F1F28 /* Pods-HandleCookies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = HandleCookies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HandleCookies",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gomeshop.release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13666850225C3E0B004E5AA4 /* Build configuration list for PBXProject "HandleCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13666869225C3E0D004E5AA4 /* Debug */,
+				1366686A225C3E0D004E5AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1366686B225C3E0D004E5AA4 /* Build configuration list for PBXNativeTarget "HandleCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1366686C225C3E0D004E5AA4 /* Debug */,
+				1366686D225C3E0D004E5AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1366684D225C3E0B004E5AA4 /* Project object */;
+}
